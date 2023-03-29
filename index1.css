@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image:url("img1.jpg");
+    background-size: 100%;
+	font-family: sans-serif;
+
+}
+.container{
+    height:360px;
+    width:auto;
+    color:white;
+    padding: 35px;
+    background-color: black;
+    background: linear-gradient(rgb(8, 8, 8),rgb(12, 12, 12));
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    box-shadow: 2px 3px 3px white;
+}
+.container  h1{
+    color: chartreuse;
+    text-shadow:2px 2px 2px white;
+	
+	
+}
+.login_form{
+	padding: 10px 5px;
+    margin: -2pxs;
+}
+.login_form .font{
+	font-size: 18px;
+	color:white;
+
+}
+.login_form input{
+	margin: 2px;
+    border-radius: 5px;
+    background:transparent;
+    color: white;
+    padding: 4px;
+    box-shadow: 2px 2px 2px white;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+    margin: 3px;
+    padding: 2px;
+     border-radius: 5px;
+     background-color: rgb(137, 138, 135);
+     color: white;
+     padding: 10px;
+     box-shadow: 2px 2px 2px white;
+}
+.login_form button:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+footer{
+    margin-top:32%;
+    color: white;
+}
+footer p{
+    color: white;
+    margin-left:70%;
+} 
